@@ -27,6 +27,10 @@ After several runs, it was determined that around 30 epochs were enough for trai
 ## Inference
 For a limited set of input english sentences, the model is capable of generating the python code. As the text size increases you see more erros with the output. One good thing is that for the most part, the generated code seems to adhere to python syntex eventhough it is not perfect! 
 
+## Output Examples
+In the data folder you can find the model output and attention heatmaps.
+- model output
+- Attention heat map
 ## Next Steps
 Some of the next steps that could help this effort.
 
