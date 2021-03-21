@@ -3,6 +3,7 @@ This is final capstone project for END-1 NLP course from SchoolofAI. It attempts
 
 ## Data Cleaning
 Even though the input file was compiled by student submissions, it still had some syntax errors like missing quotes, brackets, wrong indentations etc. These have to be manually corrected to keep these example records with proper python code. Also multi-line comments using triple quoted strings were removed to simplify the task as there were only handful of them in the entire dataset.
+Cleaned, no blank lines, [input file](https://github.com/sdev2030/NLP-SoAI/blob/main/data/1_formatted_noblank_lines.py) is used in [notebook](https://github.com/sdev2030/NLP-SoAI/blob/main/notebooks/Transformer_python_code_generator.ipynb).
 
 ## Training datafile creation
 Input file format of english sentence as comment line with # charater in first column followed by pythone code has to be converted into two column csv file. First column with English text as source column and corresponding python code string as second column(target). To remove outliers, the maximum length of strings were limited to 300 chars without loosing too many training records.
@@ -29,8 +30,8 @@ For a limited set of input english sentences, the model is capable of generating
 
 ## Output Examples
 In the data folder you can find the model output and attention heatmaps.
-- model output
-- Attention heat map
+- model example output [csv file](https://github.com/sdev2030/NLP-SoAI/blob/main/data/example_output.csv), [txt file](https://github.com/sdev2030/NLP-SoAI/blob/main/data/example_output.py)
+- Attention heat map [example1](https://github.com/sdev2030/NLP-SoAI/blob/main/data/1_attn_heatmap_example.png), [example2](https://github.com/sdev2030/NLP-SoAI/blob/main/data/2_attn_heatmap_example.png)
 ## Next Steps
 Some of the next steps that could help this effort.
 
